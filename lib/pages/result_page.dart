@@ -1,6 +1,6 @@
-import 'package:bmi_calculator/reusable_card.dart';
+import '../components/reusable_card.dart';
 
-import 'consts.dart';
+import '../constants.dart';
 import 'package:flutter/material.dart';
 
 class Result extends StatelessWidget {
@@ -26,7 +26,7 @@ class Result extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: <Widget>[
                     Text(
-                      label,
+                      'Your Result',
                       style: kTituloResultado,
                     ),
                     SizedBox(

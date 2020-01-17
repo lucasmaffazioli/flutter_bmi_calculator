@@ -1,11 +1,11 @@
 import 'package:bmi_calculator/calculator_brain.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'reusable_card.dart';
-import 'reusable_icon.dart';
-import 'enums/gender.dart';
-import 'consts.dart';
-import 'result.dart';
+import '../components/reusable_card.dart';
+import '../components/reusable_icon.dart';
+import '../enums/gender.dart';
+import '../constants.dart';
+import 'result_page.dart';
 import 'package:bmi_calculator/components/round_icon_button.dart';
 
 class InputPage extends StatefulWidget {
